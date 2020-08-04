@@ -1,9 +1,11 @@
 
 body{
     margin: 0;
-    overflow-x: hidden;
 }
-
+.body1{
+    overflow-x: hidden !important;
+    
+}
 .div2{
     padding-left: 8.64%;
     padding-right: 8.64%;
@@ -89,7 +91,24 @@ body{
         text-align: center;
     }
 }
-
+@media only screen and (max-width: 400px) {
+    .div2cont2img1{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .div2cont2img1{
+        width: 85%;
+    }
+    .div2cont1{
+        min-width: 222.5px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .div2cont2img1{
+        width: 70%;
+    }
+}
 /* Div 3 */
 .div3{
     background-color: hsl(220, 16%, 96%);
@@ -223,7 +242,7 @@ body{
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .div4container{
         flex-direction: column;
         text-align: center;
